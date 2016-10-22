@@ -19,6 +19,16 @@
   span {
       font-weight: 200;
     }
+  #nav-me {
+    display: block;
+    background: url('/img/me.JPG');
+    background-size: cover;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 8px auto;
+  }
 }
 
 #nav {
