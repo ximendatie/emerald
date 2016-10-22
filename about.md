@@ -3,10 +3,10 @@ layout: page
 title: Harvey | About me
 ---
 # 何威
-## 北京大学 在读研究生
+### 北京大学 在读研究生
 
-> 浙江杭州，男，1989年  
-> [email@example.com](email@example.com)  
+> 北京市，男，1992年  
+> [heweimr@gmail.com](heweimr@gmail.com)  
 > (+86) 101-2345-6789
 
 ------
@@ -66,8 +66,7 @@ AAA信息技术有限公司
 
 ### Footer {#footer}
 
-Github: [https://github.com/username](https://github.com/username)  
-Stack Overflow: [http://stackoverflow.com/users/id/username](http://stackoverflow.com/users/id/username)
+Github: [https://github.com/ximendatie](https://github.com/ximendatie)  
 
 ------
 
