@@ -1,5 +1,5 @@
 ## Harvey's blog
-Here's my blog build with jekyll, and the theme is named emerald.
+Here's my blog build with jekyll, and thanks for the theme named [emerald](https://github.com/KingFelix/emerald/archive/master.zip).
 
 
 ## Emerabld
