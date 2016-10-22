@@ -1,21 +1,73 @@
 ---
 layout: page
-title: About Emerald
+title: Harvey | About me
 ---
-## About
-Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
+# 何威
+## 北京大学 在读研究生
 
-For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
+> 浙江杭州，男，1989年  
+> [email@example.com](email@example.com)  
+> (+86) 101-2345-6789
 
-![Emerald](img/Emerald01.png "Emerald")
+------
 
-### Setup
-Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
+### 简介 {#profile}
 
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find it there.
+扎实的Java基础，富有激情与创意。
 
-Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Emerald in the root. 
+------
 
-Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
+### 技能 {#skills}
 
-Enjoy!
+* Android开发
+  : 三年Android开发经验。
+
+* 服务器端开发
+  : 一年服务器端开发经验。
+
+-------
+
+### 技术 {#technical}
+
+1. Android
+1. Java
+1. C
+1. Node.js
+1. MongoDB
+1. Git
+1. Linux
+1. html5 CSS3
+1. JQuery
+
+------
+
+### 工作经验 {#experience}
+
+BBB信息技术有限公司
+: *Android高级工程师*
+  __2012年至今__
+  工作详情说明
+
+AAA信息技术有限公司
+: *Android工程师*
+  __2010年至年2012年__
+  工作详情说明
+
+------
+
+### 学历 {#degree}
+
+学位
+: *学校专业*
+  __2006年至2010年__
+  学位与学校说明
+  
+------
+
+### Footer {#footer}
+
+Github: [https://github.com/username](https://github.com/username)  
+Stack Overflow: [http://stackoverflow.com/users/id/username](http://stackoverflow.com/users/id/username)
+
+------
+

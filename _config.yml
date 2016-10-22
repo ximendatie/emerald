@@ -1,14 +1,14 @@
 # Site settings
-title: Harvey
+title: Harvey | 前端学习
 description: "Harvey's blog build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+url: "http://hewei.site"
 author:
   name: "Harvey"
   email: "heweimr@gmail.com"
-  url: "http://www.jacoporabolini.com"
+  url: "http://www.hewei.site"
 
 # Build settings
-baseurl: '' # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: '/' # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
