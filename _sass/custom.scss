@@ -1,3 +1,17 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+
+// fill the screen 
+html, body, #wrap{
+	height: 100%;
+}
+#wrap #web-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#make-up{
+    height: 5em;
+}
