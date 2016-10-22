@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Harvey | About me
+title: About me
 ---
 # 何威
 ### 北京大学 在读研究生
