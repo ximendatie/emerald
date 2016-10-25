@@ -6,9 +6,10 @@ title: About me
 
 ### 北京大学 在读研究生
 
-> 北京市，男，1992年  
-> [heweimr@gmail.com](heweimr@gmail.com)  
-> (+86) 101-2345-6789
+
+>北京市，男，1992年  
+>Email:  <heweimr@gmail.com>  
+>(+86) 101-2345-6789  
 
 ------
 
