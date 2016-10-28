@@ -12,7 +12,7 @@ title: CSS选择器总结
 |序号	  |选择器	   |含义|
 |:-----|:--------|:---|
 1.	|*	|通用元素选择器，匹配任何元素
-2.|E|
+2.|E|标签选择器，匹配所有使用E标签的元素
 3.|.info|class选择器，匹配所有class属性中包含info的元素
 4.|#footer|id选择器，匹配所有id属性等于footer的元素
 
@@ -29,10 +29,10 @@ title: CSS选择器总结
 
 |序号	  |选择器	   |含义|
 |:-----|:--------|:---|
-9.	|E[att]	|匹配所有具有att属性的E元素，不考虑它的值。（注意：E在此处可以省略，比如"[cheacked]"。以下同。）
+9.	| E[att]	| 匹配所有具有att属性的E元素，不考虑它的值。（注意：E在此处可以省略，比如"[cheacked]"。以下同。）
 10. |E[att=val]	|匹配所有att属性等于"val"的E元素
 11. |E[att~=val]	|匹配所有att属性具有多个空格分隔的值、其中一个值等于"val"的E元素
-12. |E[att|=val]	|匹配所有att属性具有多个连字号分隔（hyphen-separated）的值、其中一个值以"val"开头的E元素，主要用于lang属性，比如"en"、"en-us"、"en-gb"等等
+12. |E[att\|=val]	|匹配所有att属性具有多个连字号分隔（hyphen-separated）的值、其中一个值以"val"开头的E元素，主要用于lang属性，比如"en"、"en-us"、"en-gb"等等
 
 ## 4. CSS 2.1中的伪类
 
@@ -111,6 +111,8 @@ title: CSS选择器总结
 
 
 ## End
-本文转载自[阮一峰的日志](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html)，是一个很好的总结文章，本文基本囊括了CSS中所有用到的CSS选择器，其对CSS选择器进行基本介绍和分类，希望能有所帮助。
+本文基本囊括了CSS中所有用到的选择器，对CSS选择器进行基本介绍和分类，希望能有所帮助。
+
+转自[阮一峰的日志](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html)
 
 
