@@ -15,7 +15,7 @@ title: 是jQuery还是MV*，这是个问题
 
 1)jq时代所提倡的样式、结构、行为分离的编程方式，已经慢慢被更为先进的component（组件化）思想所取代:
 
-```
+```html
 /*
 通过外联css与js实现样式、结构、行为分离
 */
@@ -33,7 +33,7 @@ title: 是jQuery还是MV*，这是个问题
 
 vs
 
-```
+```js
 /*
 一个jsx即一个完整独立的组件，直接引入了相关样式，html与js混合编写，三者关系紧密
 */
@@ -55,7 +55,7 @@ export default Box
 
 2）不再是选择器的重度依赖者，更多时候我们可以把事件绑定以及样式直接写在行间，这样做的好处很明显，一个是我们不再需要为获取而书写长长的各种嵌套的选择器而导致各种隐患；一个是使得目标更加清晰，操作更加便捷：
 
-```
+```html
 <head>
   <link href="index.css" />
 </head>
@@ -66,13 +66,17 @@ export default Box
 <script src="jquery.min.js"></script>
 <script src="index.js"></script>
 </body>
+```
 
+```css
 // index.css
 .box {
   background-color: 'green';
   color: 'red';
 }
+```
 
+```js
 // index.js
 $(document).ready(function() {
   var $box = $('#box')
@@ -88,7 +92,7 @@ $(document).ready(function() {
 
 vs
 
-```
+```js
 // index.jsx
 import React from 'react'
 const Box = React.createClass({
@@ -125,7 +129,7 @@ export default Box
 
 3）mv*使前端编程进入了高级模式。jq的出现给我们带来了一种新的、良好的编程模式，可能大家并没有注意到，举个栗子：
 
-```
+```js
 // 传统的编程方式
 var box = document.getElementById('box')
 var items = box.getElementByTagName('li')
@@ -136,7 +140,9 @@ for (var i = 0; i < items.length; i++) {
     alert(this.innerHTML)
   }
 }
+```
 
+```js
 // jq模式
 $('#box li')
 .css({color: 'red'})
@@ -178,7 +184,7 @@ jq那丰富多彩的插件世界，是一笔巨大的财富，如果jq退出历�
 
 事实上，大部分插件都可以通过以下方式很轻松地转化为cmd/amd（代码来自网络）：
 
-```
+```js
 ;(function(){
   function MyModule() {
     // ...
@@ -204,7 +210,7 @@ jq那丰富多彩的插件世界，是一笔巨大的财富，如果jq退出历�
 
 在react中，一个组件的最终形态，是一个简单的被扩展了的标签，接收来自父组件的参数（states/props/methods）作为输入，并且输出view：
 
-```
+```js
 // index.jsx
 import React from 'react'
 import Box from './component/Box'
