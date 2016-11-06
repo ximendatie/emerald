@@ -141,6 +141,7 @@ for (var i = 0; i < items.length; i++) {
   }
 }
 ```
+vs
 
 ```js
 // jq模式
