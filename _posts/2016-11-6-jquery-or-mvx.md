@@ -9,7 +9,7 @@ title: 是jQuery还是MV*，这是个问题
 有点标题党，jq（为了方便，以下用jq代替jQuery）祖宗岂是我等小辈能评头论足的。当然，所谓的何去何从，只是做一个预测和想象，纯属主观表达。
 
 ## 一、从入门到放弃
-那时候天真地以为jq可以摆平一切，从此无所畏惧。却不知`world`从来不曾为哪个`framework/library`停下脚步。
+那时候天真地以为jq可以摆平一切，从此无所畏惧。却不知world从来不曾为哪个framework/library停下脚步。
 
 而在人手一个mv\*的时代，jq已经慢慢淡出人们的视线。**angular、react、vue、ember、knockout**，等等后起之秀慢慢崛起并成为主流。表现为以下几点（以**react**为例）：
 
