@@ -17,6 +17,19 @@ html, body, #wrap{
 }
 
 
+// nav-footer-custom
+#nav-footer-custom #github{
+  display: block;
+  background: url("/img/github.jpg");
+  background-size: cover;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 8px auto;
+}
+
+
 // markdown theme
 .markdown-body {
   -ms-text-size-adjust: 100%;
