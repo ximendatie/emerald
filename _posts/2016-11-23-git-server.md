@@ -3,7 +3,6 @@ title:  GitStack 从零开始windows搭建git服务器
 ---
 
 
-http://shanewfx.github.io/blog/2012/05/03/git-server-based-on-gitstack/
 
 目前流行的版本控制系统实在太方便了，尤其是分布式的git，以前比较常用的SVN是集中式的现在已经逐渐被git所取代。对于版本控制系统的仓储，一般来说GitHub已经基本满足了所有需求。如果你对自己代码安全性要求比较高，而又不想购买GitHub的私有仓储，那么可以尝试自己搭建一个git服务器。
 
