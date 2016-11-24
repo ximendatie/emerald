@@ -8,14 +8,14 @@ title:  GitStack 从零开始windows搭建git服务器
 
 <!--more-->
 
-### 前言
+## 前言
 
  - 这篇博客虽然是windows搭建教程，大家要是有条件还是推荐在[Linux下搭建服务器](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000/)，windows对软件依赖比较高，几乎没有指令发挥空间，功能实现也会受限于软件本身的功能。
  
  - 搜索相关教程时，多数采用copSSH结合msysGit的形式搭建git服务器，但过程繁琐容易出错。试验后，本文采取十分简洁的GitStack进行安装。
 
 
-### 安装GitStack
+## 安装GitStack
 
 1. 官网进行[下载](http://gitstack.com/download/)
 2. 下载后如同其他windows软件一样，只需双击安装即可
@@ -30,7 +30,7 @@ title:  GitStack 从零开始windows搭建git服务器
 - 安装路径中不要包括空格，所以不建议安装到C:\Program Files下，默认是安装到C:\GitStack下
 - GitStack只需要服务端安装，客户端无需安装
 
-### 配置GitStack
+## 配置GitStack
 
 在服务器上，可以通过开始菜单找到GitStack打开，也可以直接打开浏览器，在地址栏里输入http://localhost/gitstack/打开登录界面。
 
@@ -44,7 +44,7 @@ title:  GitStack 从零开始windows搭建git服务器
 
 在Users & Groups中，Users下是用来创建用户或修改用户密码等，每个用户对应一个Username和其Password，已有的用户会在上面的列表中显示出来；Groups下用于创建组，可以在每个Group下添加或移除用户，已有的Group也会在列表中显示出来。
 
-### 牛刀小试
+## 牛刀小试
 
 上述已经在服务器上创建了一个ProjectRepos.git裸仓库，现在我们在服务器上来克隆该仓库。
 
@@ -61,7 +61,7 @@ cd LocalRepos 进入了工作目录，我们可以添加文件到工作区，并
 
 这时打开GitStack，可以看到服务器上仓库有了提交的内容。
 
-### 在客户机上克隆或提交代码
+## 在客户机上克隆或提交代码
 
 先在客户机上安装git客户端
 
