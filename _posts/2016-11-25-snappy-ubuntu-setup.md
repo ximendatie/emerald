@@ -114,6 +114,7 @@ Snappy Ubuntu Core 有不少特点，可以到[这里](http://www.techweb.com.cn
 注意：请操作时给树莓派连接有线网，配置过程中需要网络连接，和一般操作系统安装不太一样。  
 
 安装到最后，会出现下面的提示，告诉你可以用你的ubuntu账号访问该树莓派。是不是觉得奇怪，为什么要ssh访问，直接开机键盘交互不就好了，然而并没有这么简单，这个操作系统默认是你要从另一个终端上网，利用ssh登陆这个操作系统的（可能是该系统主要是为物联网器件开发，所以有这个特点）。
+
 ```
     This device is registered to <Ubuntu SSO email address>.
     Remote access was enabled via authentication with the SSO user <Ubuntu SSO user name>
