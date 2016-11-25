@@ -139,7 +139,7 @@ Snappy Ubuntu Core 有不少特点，可以到[这里](http://www.techweb.com.cn
 
 
 ---
-[参考官网](https://developer.ubuntu.com/en/snappy/start/raspberry-pi-2/)
+[参考官网](https://developer.ubuntu.com/en/snappy/start/raspberry-pi-2/)  
 欢迎转载，请注明出处：http://hewei.site/snappy-ubuntu-setup
 
     
