@@ -27,8 +27,6 @@ Snappy Ubuntu Core 有不少特点，可以到[这里](http://www.techweb.com.cn
 
 ## 下载安装
 
-该指南以
-
 ### 下载
 
 首先先根据树莓派类型，选择下载文件，并解压出镜像。 
