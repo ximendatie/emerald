@@ -7,6 +7,8 @@ title:   零基础用Mac为树莓派3安装Ubuntu mate
 
 用Mac为树莓派安装Ubuntu mate十分类似于安装Snappy Ubuntu Core，不过Ubuntu的图形界面对大多数人来说还是很友好的，本文讲述Mac下怎么为树莓派安装Ubuntu mate
 
+<!--more-->
+
 1. 首先去官网下载用于树莓派的unbuntu镜像。https://ubuntu-mate.org/raspberry-pi/
 
 2. 使用Mac自带的解压缩工具解压后缀为xz的文件，得到img文件
