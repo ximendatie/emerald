@@ -8,13 +8,13 @@ title:   怎么查找和使用微信小程序
 ## 微信小程序入口
 今天微信小程序正式上线，朋友圈刷了一波又一波，不过也有很多人困惑，为什么我的微信没有小程序？
 别人的微信是这样的
-![](http://ofibx667h.bkt.clouddn.com/WechatIMG1.jpeg)
+![](http://ofibx667h.bkt.clouddn.com/blog/img/17-1-9-wechat1.jpeg?imageView2/2/w/400/interlace/0/q/100)
 而我的却还是原来那样
-![](http://ofibx667h.bkt.clouddn.com/blog/img/17-1-9-wechat2.jpg)
+![](http://ofibx667h.bkt.clouddn.com/blog/img/17-1-9-wechat2.jpg?imageView2/2/w/400/interlace/0/q/100)
 
 一般出现这样的情况是因为微信版本没更新，但是我查了一下确实微信版本没有变化，其实是需要用户先搜到一个小程序然后才会开启小程序这扇大门。
 你可以在搜索框，输入“小程序示例”几个字，结果里面就会有这个官方的小程序，你点进去就相当于现在了一个，再回到发现页面，这时候它已经变成了这样
-![](http://ofibx667h.bkt.clouddn.com/WechatIMG1.jpeg)
+![](http://ofibx667h.bkt.clouddn.com/blog/img/17-1-9-wechat1.jpeg?imageView2/2/w/400/interlace/0/q/100)
 
 
 ## 微信小程序使用
