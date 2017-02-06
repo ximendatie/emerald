@@ -8,5 +8,3 @@ Thanks for the theme named [emerald](https://github.com/KingFelix/emerald/archiv
 =======
 fffffffffffffffffffffffffffffffffffffffffff
 >>>>>>> origin/master
-
-oooooooooooo
