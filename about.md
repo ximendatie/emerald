@@ -76,7 +76,7 @@ title: About me
 
 ### 其他 {#footer}
 
-    熟悉JavaScript，了解C和C++，用过JAVA、C#、PHP，Git使用，英语CET-6
+熟悉JavaScript，了解C和C++，用过JAVA、C#、PHP，Git使用，英语CET-6
 
 Github: [https://github.com/ximendatie](https://github.com/ximendatie)  
 
