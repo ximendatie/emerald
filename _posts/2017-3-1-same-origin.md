@@ -4,7 +4,7 @@ title: 跨域问题总结 —— 同源政策
 
 跨域问题对于前端开发人员来说并不陌生，当你在控制台看到`No "Access-Control-Allow-Origin"header is present on the request resource` 那就代表着你可能碰到跨域问题了，它在ajax、cookie等情景中出现的概率还是很高的，我们这里把跨域问题出现的原因，以及跨域解决方法进行分类总结。
 
-<!---more-->
+<!--more-->
 
 ## 什么是同源
 
