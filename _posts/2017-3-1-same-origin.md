@@ -47,6 +47,7 @@ http://en.example.com/dir/other.html	|否|	域名不同
 http://example.com/dir/other.html	|否|	域名不同
 http://v2.www.example.com/dir/other.html	|否	|域名不同
 
+注意：localhost和127.0.0.1不同源哦
 
 ## End
 
