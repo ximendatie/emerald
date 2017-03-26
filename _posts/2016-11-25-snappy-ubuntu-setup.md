@@ -4,10 +4,9 @@ title:  零基础为树莓派安装操作系统 Snappy Ubuntu Core
 
 因为要做个物联网方面的事情，所以给入手的树莓派装个操作系统，看到比较时新的Snappy Ubuntu Core也想尝试一把，可惜网上资料太少，所以此处把我的安装过程，给刚入门的朋友介绍一下。
 
->
-先提前告诉大家，这个系统我装完就卸载了，并不是说它不好，而是因为它只是个核心，没有图形界面，对于我目前来说，面对一个只有指令交互的界面还是很崩溃的。
 
 <!--more-->
+
 
 ## Snappy Ubuntu Core
 
@@ -139,7 +138,8 @@ Snappy Ubuntu Core 有不少特点，可以到[这里](http://www.techweb.com.cn
 
 
 ---
-[参考官网](https://developer.ubuntu.com/en/snappy/start/raspberry-pi-2/)  
+[参考官网](https://developer.ubuntu.com/en/snappy/start/raspberry-pi-2/)   
+
 欢迎转载，请注明出处：http://hewei.site/snappy-ubuntu-setup
 
     
