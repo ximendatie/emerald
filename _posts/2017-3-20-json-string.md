@@ -11,11 +11,11 @@ title: 不同语言 json 与 字符串 的互相转换
 ## JavaScript中 json 与string 的互相转换
 
 json全称 JavaScript Object Notation, 也就是JS对象标记，和JS的契合度很高，所以转换方法也很简单。
-
-JSON.parse(jsonstr); //可以将json字符串转换成json对象 
+```javascript
+JSON.parse(jsonstr); //可以将json字符串转换成json对象   
 JSON.stringify(jsonobj); //可以将json对象转换成json对符串
-
-## Java中 json 与 string 的互相转换 
+```
+## Java中 json 与 String 的互相转换 
 
 这里用到org.json包  
 该部分参考http://zhangfan822.iteye.com/blog/1880830
@@ -52,11 +52,11 @@ public String jsonTest() throws JSONException{
 #### 字符串转json
 
 直接以String作为json初始化参数即可
-myJson = new JSONObject(myjson)
+myjson = new JSONObject(myString)
 
 示例：
 
-```
+```java
 public String jsonTest2() throws JSONException{  
     String jsonString="{\"users\":[{\"loginname\":\"zhangfan\",\"password\":\"userpass\",\"email\":\"10371443@qq.com\"},{\"loginname\":\"zf\",\"password\":\"userpass\",\"email\":\"822393@qq.com\"}]}";  
     JSONObject json= new JSONObject(jsonString);  
@@ -78,7 +78,7 @@ public String jsonTest2() throws JSONException{
 ## Python 中 json 与 string 的互相转换 
 
 Python中json形式的对应类型是dict  
-```
+```python
 t={'a':1,'b':2}
 print type(t)
 
@@ -88,7 +88,7 @@ print type(t)
 我们这里把dict当作json对象进行使用和转换处理。  
 
 引入模块 ``import json``
-```
+```python
 json.dumps(json_str) #字符串转json
 json.loads(json) #json转字符串
 ```
