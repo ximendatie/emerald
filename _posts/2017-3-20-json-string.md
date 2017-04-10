@@ -89,8 +89,8 @@ print type(t)
 
 引入模块 ``import json``
 ```python
-json.dumps(json_str) #字符串转json
-json.loads(json) #json转字符串
+json.dumps(json) #json转字符串
+json.loads(json_str) #字符串转json
 ```
 
 ## END
