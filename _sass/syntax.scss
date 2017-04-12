@@ -2,8 +2,9 @@
  * A Github stylesheet to highlight code snippet
  * https://github.com/mojombo/tpw/blob/master/css/syntax.css
  */
+pre[class='highlight'] {background-color:#272822;}
 
-.highlight  { background-color: #000; }
+// .highlight  { background-color: #000; }
 .lineno { color: darken($background-color, 25%); margin-right: 1em; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
