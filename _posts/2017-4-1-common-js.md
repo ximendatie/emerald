@@ -29,7 +29,7 @@ function sleep(numberMillis) {
 
 This is a CSS example: 
 
-{% highlight css linenos %}
+{% highlight css  %}
 
 body { background-color: #fff; }
 
@@ -48,7 +48,7 @@ def hello puts "Hello World!" end
 
 {% endhighlight %}
 
-{% highlight javascript linenos %}
+{% highlight javascript  %}
 
 function sleep(numberMillis) {  
     var now = new Date();  
