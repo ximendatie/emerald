@@ -11,6 +11,8 @@ author:
 baseurl: '/' # Change this to your relative path (ex: /blog/), or leave just a /
 highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
 
 source: .
 destination: ./_site
