@@ -15,7 +15,6 @@ title: JavaScript常用代码块记录
 时间片段一般会使用setTimeout和setInterval，不过一些特殊情况可能还是需要自己写。
 
 ```
-{% hightlight javascript %} 
 function sleep(numberMillis) {  
     var now = new Date();  
     var exitTime = now.getTime() + numberMillis;  
@@ -25,7 +24,6 @@ function sleep(numberMillis) {
             return;  
     }  
 }  
-{% endhightlight %}
 ```
 
 
