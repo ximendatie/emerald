@@ -27,3 +27,39 @@ function sleep(numberMillis) {
 ```
 
 
+This is a CSS example: 
+
+{% highlight css linenos %}
+
+body { background-color: #fff; }
+
+h1 { color: #ffaa33; font-size: 1.5em; }
+
+{% endhighlight %}
+
+And this is a HTML example, with a linenumber: {% highlight html linenos %}
+
+Example
+{% endhighlight %}
+
+Last, a Ruby example: {% highlight ruby linenos %}
+
+def hello puts "Hello World!" end
+
+{% endhighlight %}
+
+{% highlight javascript linenos %}
+
+function sleep(numberMillis) {  
+    var now = new Date();  
+    var exitTime = now.getTime() + numberMillis;  
+    while (true) {  
+        now = new Date();  
+        if (now.getTime() > exitTime)  
+            return;  
+    }  
+} 
+
+{% endhighlight %}
+
+
