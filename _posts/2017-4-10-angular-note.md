@@ -6,6 +6,14 @@ title: AngularJS 学习笔记
 
 <!--more-->
 
+
+## AngularJS简介
+
+AngularJS这个js框架可以概括的说做了两件事：
+
+1. 通过`指令`扩展了HTML  
+2. 通过`表达式`绑定数据到HTML  
+
 > AngularJS有人说是MVC框架，也有人说是MVVM，其实官方说法它是一个MVW框架，即Model-View-Whatever，Whatever很霸气，把什么都包括了。
 
 ## AngularJS的优缺点
