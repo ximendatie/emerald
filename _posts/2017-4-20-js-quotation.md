@@ -15,15 +15,20 @@ title: JavaScript 单引号与双引号
     JSON.parse("{'a':1,'b':2}");//错
     ```
 
-2. 引号嵌套，使用不同类型的引号，如果需要显示引号字符，使用反斜杠\(html页面不能使用\进行转义)，进行转义。
+2. 引号嵌套，使用不同类型的引号。
     
     ```javascript
     <input type="button" onclick="alert("1")">//错
     <input type="button" onclick="alert('1')">//对
-    <input type="button" onclick="alert('\"1\"')">//错
-    console.log("abc\"def\"ghi");//对
     ```
 
+3. 如果需要显示引号字符，使用反斜杠\进行转义或者不同引号嵌套，html页面不能使用\进行转义。
+
+    ```javascript
+    console.log("abc\"def\"ghi");//对
+    console.log('abc"def"ghi');//对
+    <input type="button" onclick="alert('\"1\"')">//错
+    ```
 
 待续...
 
