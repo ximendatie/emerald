@@ -42,7 +42,7 @@ title: About me
 
 * **实验室网站建设（前端）** 
 
-    [ics.pku.edu.cn](ics.pku.edu.cn) 内容包括实验室基本信息展示，下载上传，登录等，以及后台编辑，主要负责前端，开发技术涉及HTML、CSS、JS、Less、Node.js、Bootstrap等
+    [ics.pku.edu.cn](http://ics.pku.edu.cn) 内容包括实验室基本信息展示，下载上传，登录等，以及后台编辑，主要负责前端，开发技术涉及HTML、CSS、JS、Less、Node.js、Bootstrap等
     
 * **交互式动画的移动端开发（WPF）** 
 
